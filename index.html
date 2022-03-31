@@ -1,0 +1,105 @@
+
+<html>
+    <head>
+        <title>Learn_Compuuter</title>
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+                box-sizing: border-box;
+            }
+            .nav_bar{
+                background: DarkSlateGray;
+                text-align: left;
+                display: flex;
+                padding: 07px;
+                border-bottom: 1px solid white;
+                
+            }
+            .nav_menu{
+                display:flex;
+                list-style: none;
+                padding:15px;
+                
+                
+            }
+            .nav_menu a{
+                text-decoration: none;
+                color:white;
+                margin:20px;
+                padding:15px;
+                
+            }
+            .nav_menu a:hover{
+                background-color: SlateGray;
+                border-radius: 3px;
+                background-size: auto;
+            }
+            .notice{
+                background-color: beige;
+                opacity: 80%;
+                padding:07px;
+                margin: 07px 07px 00px 07px;
+                float: right;
+                width: 79%;
+                display: flex;
+                border-radius: 20px;
+            }
+            .notice lable{
+                border: 1px solid DarkSlateGray;
+                padding: 07px;
+                background: DarkSlateGray;
+                border-radius: 15px;
+                color:white;
+            }
+            .menu{
+                float:left;
+                height: 100%;
+                width:20%;
+                background-color: DarkSlateGray;
+            }
+            .menu p{
+                text-align: center;
+                padding:30px;
+                color: aliceblue;
+                margin-top: 10px;
+                
+            }
+            .menu p:hover{
+                background-color: SlateGray;
+            }
+            body{
+                background: url("background.jpg");
+            }
+            .notice marquee{
+                padding:07px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav_bar">
+            <img class="logo" src="logo.png" width="50px" height="50px">
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programming.html">Programming Languages</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="Login page.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <p>C Programming</p>
+                <p>C++ Programming</p>
+                <p>JAVA Programming</p>
+                <p>HTML Programming</p>
+                <p>CSS Programming</p>
+                <p>Python Programming</p>
+            </div>
+             <div class="notice">
+                <lable>NOTICE</lable>
+                <marquee wwidth="50%">ATTENTION..!&nbsp;&nbsp;Admission Going On.</marquee>
+            </div>   
+        </div>
+        
+    </body>
+</html>
